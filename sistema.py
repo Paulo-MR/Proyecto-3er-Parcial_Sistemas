@@ -1,7 +1,7 @@
-from Automata import *
-from Proposicion import *
-from Token import *
-from TokenType import *
+from Automata import * # type: ignore
+from Proposicion import * # type: ignore
+from Token import * # type: ignore
+from TokenType import * # type: ignore
 
 def analisis_lexico(proposicion):
     # Cambiar frase a minusculas y separar por espacios
